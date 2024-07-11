@@ -4,8 +4,6 @@ import requests
 from tkinter import messagebox
 
 
-key = "f9b419900c860cd7e951bde4c4332278"
-
 def get_weather(city):
     API_key = key
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
